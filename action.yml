@@ -1,5 +1,5 @@
-name: 'Works Work Sync'
-description: 'Sync GitHub issues, PRs, and commits with Works work tracking'
+name: 'Works'
+description: 'GitHub Action for Works - Automated work tracking in CI/CD'
 author: 'Works'
 
 branding:
@@ -9,8 +9,8 @@ branding:
 inputs:
   server-url:
     description: 'Works server URL'
-    required: true
-    default: 'http://localhost:3001'
+    required: false
+    default: 'https://api.works.select'
   api-key:
     description: 'Works API key'
     required: false
